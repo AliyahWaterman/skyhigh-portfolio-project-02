@@ -31,7 +31,6 @@ This project deploys the following AWS resources:
 - 1 EC2 Web Server running Nginx
 - 1 Private Amazon S3 Bucket
 
-![AWS Architecture](images/AWS Architecture Diagram.png)
 
 
 ## ⭐ Features
