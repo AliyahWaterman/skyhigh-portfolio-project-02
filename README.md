@@ -1,4 +1,17 @@
-# SkyHigh Portfolio Project 02 - Production AWS Network with Terraform## Project Overview
+# SkyHigh Portfolio Project 02 - Production AWS Network with Terraform
+
+## 📖 Project Overview
+## 🛠️ Technologies Used
+## 🏗️ Architecture
+## ⭐ Features
+## 🚀 How to Deploy
+## 📦 Terraform Module
+## ⚠️ Challenges
+## 🔮 Future Improvements
+## 💰 Cost
+## 👩‍💻 Author
+
+## Project Overview
 
 This project demonstrates how to build a production-ready AWS network using Terraform Infrastructure as Code (IaC). The infrastructure includes a custom VPC, public and private subnets across multiple Availability Zones, an Internet Gateway, NAT Gateway, Security Groups, an EC2 web server running Nginx, and a private S3 bucket. All infrastructure was deployed, managed, and destroyed using Terraform without manually creating resources in the AWS Console.
 
@@ -30,7 +43,7 @@ This project deploys the following AWS resources:
 - 1 EC2 Web Server running Nginx
 - 1 Private Amazon S3 Bucket
 
-## Features
+## ⭐ Features
 
 - Infrastructure deployed using Terraform
 - Reusable Terraform VPC module
@@ -95,9 +108,8 @@ During this project I learned how to:
 After testing the deployment, all AWS resources were destroyed using Terraform to avoid unnecessary AWS charges, especially for the NAT Gateway.
 
 
-## Project Overview
+## Author
 
-This project demonstrates how to build a production-ready AWS network using Terraform Infrastructure as Code (IaC). The infrastructure includes a custom Virtual Private Cloud (VPC), two public subnets, two private subnets, an Internet Gateway, a NAT Gateway, Security Groups, an EC2 web server running Nginx, and a private Amazon S3 bucket with versioning enabled.
+**Aliyah Waterman**
 
-The goal of this project was to provision, manage, and destroy AWS infrastructure entirely through Terraform without manually creating resources in the AWS Management Console.
-
+- GitHub: https://github.com/AliyahWaterman
