@@ -1,21 +1,10 @@
 # SkyHigh Portfolio Project 02 - Production AWS Network with Terraform
 
 ## 📖 Project Overview
-## 🛠️ Technologies Used
-## 🏗️ Architecture
-## ⭐ Features
-## 🚀 How to Deploy
-## 📦 Terraform Module
-## ⚠️ Challenges
-## 🔮 Future Improvements
-## 💰 Cost
-## 👩‍💻 Author
-
-## Project Overview
 
 This project demonstrates how to build a production-ready AWS network using Terraform Infrastructure as Code (IaC). The infrastructure includes a custom VPC, public and private subnets across multiple Availability Zones, an Internet Gateway, NAT Gateway, Security Groups, an EC2 web server running Nginx, and a private S3 bucket. All infrastructure was deployed, managed, and destroyed using Terraform without manually creating resources in the AWS Console.
 
-## Technologies Used
+## 🛠️ Technologies Used
 
 - Terraform
 - AWS VPC
@@ -29,8 +18,7 @@ This project demonstrates how to build a production-ready AWS network using Terr
 - Git
 - GitHub
 
-## Architecture
-
+## 🏗️ Architecture
 This project deploys the following AWS resources:
 
 - 1 VPC
@@ -42,6 +30,9 @@ This project deploys the following AWS resources:
 - 2 Security Groups
 - 1 EC2 Web Server running Nginx
 - 1 Private Amazon S3 Bucket
+
+![AWS Architecture](images/AWS Architecture Diagram.png)
+
 
 ## ⭐ Features
 
@@ -56,7 +47,7 @@ This project deploys the following AWS resources:
 - Private Amazon S3 Bucket with Versioning
 - Security Groups for Web and Database tiers
 
-## How to Deploy
+## 🚀 How to Deploy
 
 ```bash
 terraform init
@@ -72,7 +63,7 @@ To avoid AWS charges, destroy the infrastructure when finished.
 terraform destroy
 ```
 
-## Terraform Module
+## 📦 Terraform Module
 
 The networking infrastructure is organized as a reusable Terraform module located in:
 
@@ -87,7 +78,7 @@ This module creates:
 - NAT Gateway
 - Route Tables 
 
-## Challenges
+## ⚠️ Challenges
 
 During this project I learned how to:
 
@@ -96,19 +87,19 @@ During this project I learned how to:
 - Troubleshoot Terraform validation errors
 - Deploy infrastructure using Infrastructure as Code (IaC)
 
-## Future Improvements
+## 🔮 Future Improvements
 
 - Configure remote Terraform state using S3
 - Deploy multiple EC2 instances
 - Add an Application Load Balancer
 - Implement CI/CD with GitHub Actions
 
-## Cost
+## 💰 Cost
 
 After testing the deployment, all AWS resources were destroyed using Terraform to avoid unnecessary AWS charges, especially for the NAT Gateway.
 
 
-## Author
+## 👩‍💻 Author
 
 **Aliyah Waterman**
 
